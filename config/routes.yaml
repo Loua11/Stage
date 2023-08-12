@@ -1,0 +1,25 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+app_front:
+    resource:  App\Controller\FrontController
+    type: annotation
+
+app_formulaire:
+    resource:  App\Controller\FormulaireController
+    type: annotation
+
+app_loginetu:
+   resource:  App\Controller\LoginetuController
+   type: annotation
+
+app_loginfac:
+   resource:  App\Controller\LoginfacController
+   type: annotation
+
+app_loginad:
+   resource:  App\Controller\LoginadController
+   type: annotation
+
+
